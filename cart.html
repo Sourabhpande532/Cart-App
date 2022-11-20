@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cart App 🛍️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">Cart App</a>
+        <a href="./cart.html">
+            <div class="icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="count"></div>
+            </div>
+        </a>
+    </nav>
+    <section class="card_detail">
+        <div class="resultShow"></div>
+
+        <div class="analytics">
+            <div style="color: grey; font-weight: bold;">PRICE DETAILS</div>
+            <div class="">
+                <span>Price:</span>
+                <span class="currentPrice"></span>
+            </div>
+            <div class="">
+                <span>Discount:</span>
+                <span class="discount"></span>
+            </div>
+            <div class="">
+                <span>Delivery Charges:</span>
+                <span class="free">free</span>
+            </div>
+            <div class="">
+                <span style="font-weight: bold;">Total Amount:</span>
+                <span class="TotalAmount">₹00RS</span>
+            </div>
+        </div>
+    </section>
+    <script src="./cart.js"></script>
+</body>
+
+</html>
